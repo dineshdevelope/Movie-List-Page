@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie-List-Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Movie-Times</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Hollywood"
+                >Hollywood</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Love">Love</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Action">Action</a>
+            </li>
+
+            <form class="d-flex ms-5" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Search
+              </button>
+            </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="bg-info py-1 text-center" id="Action">
+      <h4>Action-Movie-Collection</h4>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-1 px-5 bg-danger">
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://moviegalleri.net/wp-content/gallery/vaathi-posters/Vaathi-Release-Posters-84938eb.jpg"
+            class="card-img-top img-fluid"
+            alt="Vaathi-Movie"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Vaathi</h5>
+            <p class="card-text">
+              This movie is a slipper shot to the people who is making education
+              as business and labelling students as their products.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt15427980/"
+            class="btn btn-primary"
+            target="_blank"
+          >
+            Watch Now
+          </a>
+          <div class="card-footer">
+            <small class="text-muted"> Released on 17-Feb-2023 </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://images.news18.com/ibnkhabar/uploads/2023/07/dhanush-Velaiilla-Pattadhari.jpg"
+            alt="VIP-1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">VIP-1</h5>
+            <p class="card-text">
+              Raghuvaran, an educated yet unemployed engineer, is unwilling to
+              accept jobs that are unrelated to his area of expertise.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt3822396/?ref_=tt_mv_close"
+            class="btn btn-primary"
+            target="_blank"
+            >Watch Now</a
+          >
+          <div class="card-footer">
+            <small class="text-muted"> Released on 18-Jul-2014 </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://i.ytimg.com/vi/QoReST5BE4A/maxresdefault.jpg"
+            alt="VIP-2"
+          />
+          <div class="card-body">
+            <h5 class="card-title">VIP-2</h5>
+            <p class="card-text">
+              When a jobless graduate flounders around trying to find work, he
+              loses respect from his wife, family and friends.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt7019812/?ref_=fn_al_tt_2"
+            class="btn btn-primary"
+            target="_blank"
+            >Watch Now</a
+          >
+          <div class="card-footer">
+            <small class="text-muted"> Released on 02-June-2017 </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://thefederal.com/file/2019/09/asuran-2.jpg"
+            alt="VIP-2"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Asuran</h5>
+            <p class="card-text">
+              The teenage son of a farmer from an underprivileged caste kills a
+              rich, upper caste landlord. How the pacifist farmer saves his
+              hot-blooded son is the rest of the story.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt9477520/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_Asuran"
+            class="btn btn-primary"
+            target="_blank"
+            >Watch Now</a
+          >
+          <div class="card-footer">
+            <small class="text-muted"> Released on 08-Mar-2021 </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-info py-1 my-2 text-center" id="Hollywood">
+      <h4>Hollywood-Movie-Collection</h4>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-1 px-5 bg-warning">
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/Untitled_design_-_2022-05-24T1.png?VersionId=VCCrHABnnOlSHhAH_aqJDmjm6KwB0ZDO"
+            alt="Atrangi Re"
+          />
+          <div class="card-body">
+            <h5 class="card-title">The Gray Man</h5>
+            <p class="card-text">
+              When the CIA's most skilled operative, whose true identity is
+              known to none, accidentally uncovers dark agency secrets, a
+              psychopathic former colleague puts a bounty on his head, setting
+              off a global manhunt by international assassins.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt1649418/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_the%2520gray%2520man"
+            class="btn btn-primary"
+            target="_blank"
+            >Watch Now</a
+          >
+          <div class="card-footer">
+            <small class="text-muted"> Released on 08-Mar-2021 </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://exportfromtumblerddd.files.wordpress.com/2015/01/d7238-actress-akshara-haasan-latest-hot-photos-in-short-dress-at-shamitabh-hindi-movie-trailer-launch-celebsnext-32.jpg"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Shamitabh</h5>
+            <p class="card-text">
+              An aspiring actor with the inability to speak, joins forces with a
+              man who has a powerful voice. Together they take the film industry
+              by storm.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt3836958/?ref_=nv_sr_srsg_0_tt_1_nm_7_q_shamitabh"
+            class="btn btn-primary"
+            target="_blank"
+            >Watch Now</a
+          >
+          <div class="card-footer">
+            <small class="text-muted"> Released on 18-Jul-2014 </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://m.media-amazon.com/images/S/pv-target-images/9f2c3f796eb14836c32b4950912a66550cf2fd9a0f7dbca3fe86982c1e57ff96.jpg"
+            alt="The Extraordinary Journey of the Fakir"
+          />
+          <div class="card-body">
+            <h5 class="card-title">The Extraordinary Journey of the Fakir</h5>
+            <p class="card-text">
+              Ajatashatru Lavash Patel has lived all his life in a small Mumbai
+              neighborhood tricking people with street magic and fakir stunts.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt5371168/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_The%2520Extraordinary%2520Journey%2520of%2520the%2520Fakir"
+            class="btn btn-primary"
+            target="_blank"
+            >Watch Now</a
+          >
+          <div class="card-footer">
+            <small class="text-muted"> Released on 02-June-2017 </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://i.ytimg.com/vi/x3oMm5JGXZM/maxresdefault.jpg"
+            alt="Atrangi Re"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Atrangi Re</h5>
+            <p class="card-text">
+              A Tamil boy meets a girl from Bihar, what follows is a love story
+              for the ages. A non-linear narrative of two romances running in
+              parallel from different timelines.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt9766332/?ref_=nv_sr_srsg_0_tt_4_nm_4_q_alrangi%2520re"
+            class="btn btn-primary"
+            target="_blank"
+            >Watch Now</a
+          >
+          <div class="card-footer">
+            <small class="text-muted"> Released on 08-Mar-2021 </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-info py-1 my-2 text-center" id="Love">
+      <h4>Love-Movie-Collection</h4>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-1 px-5 bg-success">
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://chaibisket.com/wp-content/uploads/2022/03/ram-and-jaanu-copy.jpg"
+            alt="Vaathi-Movie"
+          />
+          <div class="card-body">
+            <h5 class="card-title">3 (Love)</h5>
+            <p class="card-text">
+              Ram and Janani are high school sweethearts who eventually get
+              married. However, Janani is mystified when Ram commits suicide all
+              of a sudden and she tries to find out the truth behind his death.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt2123129/"
+            class="btn btn-primary"
+            target="_blank"
+          >
+            Watch Now
+          </a>
+          <div class="card-footer">
+            <small class="text-muted"> Released on 17-Feb-2023 </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://images004-a.erosnow.com/movie/5/1005145/img945380/6836278/1005145_6836278.jpg"
+            alt="Ambikapathy"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ambikapathy</h5>
+            <p class="card-text">
+              Kundan, the son of a Hindu pundit, discovers that his childhood
+              sweetheart Zoya loves city-bred Akram and wants to marry him.
+              However, he persistently seeks to win her heart.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt2359810/?ref_=nv_sr_srsg_2_tt_3_nm_5_q_Ambikapathy%2520"
+            class="btn btn-primary"
+            target="_blank"
+            >Watch Now</a
+          >
+          <div class="card-footer">
+            <small class="text-muted"> Released on 18-Jul-2014 </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScF1u9G9B2X6H7fYBoZt4eKTwBeh9yDqnTYQ&usqp=CAU"
+            alt="Yaaradi Nee Mohini"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Yaaradi Nee Mohini</h5>
+            <p class="card-text">
+              Vasu falls in love with Keerthi, but when he expresses his
+              feelings to her, she rejects him and says that her marriage has
+              been fixed. Later, he learns that she is about to marry his close
+              friend Cheenu.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt1388444/"
+            class="btn btn-primary"
+            target="_blank"
+            >Watch Now</a
+          >
+          <div class="card-footer">
+            <small class="text-muted"> Released on 02-June-2017 </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-info">
+          <img
+            src="https://m.media-amazon.com/images/S/pv-target-images/e0e2d95a84835bb1dff4dee5ece660b3402922e762c023667225d9b594673651.jpg"
+            alt="Thanga Magan"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Thanga Magan</h5>
+            <p class="card-text">
+              Tamizh's peaceful life is shattered when his father commits
+              suicide. So, he tries to uncover the reason that prompted his
+              father to kill himself.
+            </p>
+          </div>
+          <a
+            href="https://www.imdb.com/title/tt5124096/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_Thanga%2520Magan"
+            class="btn btn-primary"
+            target="_blank"
+            >Watch Now</a
+          >
+          <div class="card-footer">
+            <small class="text-muted"> Released on 08-Mar-2021 </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-info">
+      <p class="text-center mt-2 p-4">
+        Copyright&copy-2023
+        <span
+          >Code by
+          <a
+            href="https://github.com/dineshdevelope"
+            class="text-primary"
+            target="_blank"
+            >S.Dinesh</a
+          ></span
+        >
+      </p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
